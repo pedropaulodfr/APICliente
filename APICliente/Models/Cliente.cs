@@ -1,0 +1,14 @@
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace APICliente.Models
+{
+    [Table("Clientes")]
+    public class Cliente
+    {
+        public int Id { get; set; }
+        public string Nome { get; set; }
+        public string Telefone{ get; set; }
+        public string DataNascimento{ get; set; }
+        public string Endereco { get; set; }
+    }
+}
